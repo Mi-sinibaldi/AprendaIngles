@@ -38,7 +38,7 @@
         android:scaleType="centerCrop"
         android:src="@drawable/cinco"
         app:layout_constraintStart_toStartOf="@+id/guideline3"
-        app:layout_constraintTop_toBottomOf="@+id/imageButtonTree" />
+        app:layout_constraintTop_toBottomOf="@+id/imageButtonThree" />
 
     <ImageButton
         android:id="@+id/imageButtonSix"
@@ -49,7 +49,7 @@
         android:scaleType="centerCrop"
         android:src="@drawable/seis"
         app:layout_constraintEnd_toStartOf="@+id/guideline4"
-        app:layout_constraintTop_toBottomOf="@+id/imageButtonFor" />
+        app:layout_constraintTop_toBottomOf="@+id/imageButtonFour" />
 
     <android.support.constraint.Guideline
         android:id="@+id/guideline3"
@@ -66,7 +66,7 @@
         app:layout_constraintGuide_percent="0.87" />
 
     <ImageButton
-        android:id="@+id/imageButtonTree"
+        android:id="@+id/imageButtonThree"
         android:layout_width="130dp"
         android:layout_height="130dp"
         android:layout_marginTop="32dp"
@@ -77,7 +77,7 @@
         app:layout_constraintTop_toBottomOf="@+id/imageButtonOne" />
 
     <ImageButton
-        android:id="@+id/imageButtonFor"
+        android:id="@+id/imageButtonFour"
         android:layout_width="130dp"
         android:layout_height="130dp"
         android:layout_marginTop="32dp"

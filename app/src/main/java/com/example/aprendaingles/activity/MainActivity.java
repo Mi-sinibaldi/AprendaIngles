@@ -7,7 +7,6 @@ import android.os.Bundle;
 import com.example.aprendaingles.R;
 import com.example.aprendaingles.fragments.BichosFragment;
 import com.example.aprendaingles.fragments.NumerosFragment;
-import com.example.aprendaingles.fragments.VogaisFragment;
 import com.ogaclejapan.smarttablayout.SmartTabLayout;
 import com.ogaclejapan.smarttablayout.utils.v4.FragmentPagerItemAdapter;
 import com.ogaclejapan.smarttablayout.utils.v4.FragmentPagerItems;
@@ -34,7 +33,6 @@ public class MainActivity extends AppCompatActivity {
                 FragmentPagerItems.with(this)
                 .add("Bichos", BichosFragment.class)
                 .add("Numero", NumerosFragment.class)
-                .add("Vogais", VogaisFragment.class)
                 .create()
         );
 
